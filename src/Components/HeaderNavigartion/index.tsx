@@ -1,7 +1,43 @@
-import {Container} from './styles'
+import {
+    Container, 
+    InformationsContainer, 
+    ProfileArea, 
+    ProfileImage, 
+    ProfileName, 
+    SearchArea, 
+    SearchAreaButtons, 
+    Title, 
+    TitleOfPage} 
+    from './styles'
 
-export default function Sidebar(){
+interface TitlePageProps{
+    title: string;
+}
+
+export default function Sidebar(title: TitlePageProps){
     return(
-        <Container><h1>oi</h1></Container>
+        <Container>
+            <TitleOfPage>
+                <Title>{title}</Title>
+            </TitleOfPage>
+
+            <InformationsContainer>
+                <SearchArea>
+                    <SearchAreaButtons>
+
+                    </SearchAreaButtons>
+                </SearchArea>
+
+                <ProfileArea>
+                    <ProfileName>
+
+                    </ProfileName>
+
+                    <ProfileImage>
+
+                    </ProfileImage>
+                </ProfileArea>
+            </InformationsContainer>
+        </Container>
     )
 }
