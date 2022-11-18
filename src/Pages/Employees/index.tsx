@@ -1,12 +1,17 @@
 import {TudoQueTiverDentroDaPagina} from './style'
 import SearchBarComponent from '../../Components/SearchBar'
+import {HeaderNavigation} from '../../Components/HeaderNavigartion'
 
 export default function Employess(){
     return(
         <TudoQueTiverDentroDaPagina>
+            
+         <HeaderNavigation>
+    
             <SearchBarComponent />
-            <h1>Oi</h1>
-            <p>Você está na página de funcionários</p>
+            
+            
+            
         </TudoQueTiverDentroDaPagina>
     )
 }
