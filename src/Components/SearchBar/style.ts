@@ -1,4 +1,4 @@
-import { Title } from './../HeaderNavigartion/styles';
+import { Title } from '../HeaderNavigation/styles';
 import styled from "styled-components";
 
 export const SearchBar = styled.div`
