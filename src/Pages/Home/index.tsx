@@ -1,11 +1,16 @@
 import HeaderNavigation from "../../Components/HeaderNavigartion"
+import Sidebar from "../../Components/Sidebar"
 
 export default function Dashboard(){
     return(
-        <div>
-            <HeaderNavigation title="Home" />
-            <div>
-                <h1>Wellcome to home dashboard</h1>
+        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
+            <Sidebar />
+            
+            <div style={{display: "flex", flexDirection: "column"}}>
+                <HeaderNavigation title="Home" />
+                <div>
+                    <h1>Wellcome to home dashboard</h1>
+                </div>
             </div>
         </div>
     )
