@@ -9,10 +9,17 @@ export const Container = styled.div`
 `;
 
 export const TitleOfPage = styled.div`
-
+    width: 60%;
+    align-items:center;
+    justify-content: flex-start;
+    text-align:center;
 `;
 export const Title = styled.h2`
-
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.3px;
+color: #404040;
 `;
 
 export const InformationsContainer = styled.div`

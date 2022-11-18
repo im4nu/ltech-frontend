@@ -18,7 +18,7 @@ export default function Sidebar(title: TitlePageProps){
     return(
         <Container>
             <TitleOfPage>
-                <Title>{title}</Title>
+                <Title></Title>
             </TitleOfPage>
 
             <InformationsContainer>
