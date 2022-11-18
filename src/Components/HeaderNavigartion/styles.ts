@@ -5,7 +5,9 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     height: 8vh;
-    padding: 10px 3vw;
+    padding: 10px 5vw;
+    align-items:center;
+    text-align:center;
 `;
 
 export const TitleOfPage = styled.div`
@@ -44,6 +46,14 @@ export const SearchAreaButton = styled.button`
     padding: 5px;
     align-items: center;
     justify-content:center;
+    transition: all ease 0.6s;
+    :hover{
+        :hover{
+        cursor: pointer;
+        transition: all ease 0.6s;
+        transform: translateY(-3px);
+    }
+    }
 `;
 
 export const ProfileArea = styled.div`
