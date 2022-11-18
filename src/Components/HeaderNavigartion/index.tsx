@@ -1,5 +1,6 @@
 import SearchIcon from '../../Assets/Icons/SearchGray.svg'
 import NotificatioIcon from '../../Assets/Icons/Notification.svg'
+import DivisorIcons from '../../Assets/Icons/Divisor.svg'
 import {
     Container, 
     InformationsContainer, 
@@ -44,8 +45,9 @@ export default function HeaderNavigation(title: TitlePageProps){
                             height: 18,
                         }}
                          />
-                    
                     </SearchAreaButton>
+
+                    <img src={DivisorIcons} alt="divisor" />
                 </SearchArea>
 
                 <ProfileArea>

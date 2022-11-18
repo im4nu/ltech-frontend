@@ -5,6 +5,7 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     height: 8vh;
+    width: 85vw;
     padding: 10px 5vw;
     align-items:center;
     text-align:center;
@@ -17,7 +18,7 @@ export const TitleOfPage = styled.div`
 `;
 export const Title = styled.h2`
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.3px;
     color: #404040;
@@ -47,13 +48,12 @@ export const SearchAreaButton = styled.button`
     align-items: center;
     justify-content:center;
     transition: all ease 0.6s;
-    :hover{
         :hover{
         cursor: pointer;
         transition: all ease 0.6s;
         transform: translateY(-3px);
-    }
-    }
+        background-color: #40404091;
+        }
 `;
 
 export const ProfileArea = styled.div`
