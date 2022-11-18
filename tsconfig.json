@@ -16,7 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/images/custom.d.ts"],
+  "include": ["src", "./custom.d.ts"],
   "settings": {
     "import/resolver": {
       "typescript": {}
