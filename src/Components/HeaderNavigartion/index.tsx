@@ -1,11 +1,12 @@
+import SearchIcon from '../../Assets/Icons/SearchGray.svg'
+import NotificatioIcon from '../../Assets/Icons/Notification.svg'
 import {
     Container, 
     InformationsContainer, 
     ProfileArea, 
-    ProfileImage, 
     ProfileName, 
     SearchArea, 
-    SearchAreaButtons, 
+    SearchAreaButton, 
     Title, 
     TitleOfPage} 
     from './styles'
@@ -14,28 +15,53 @@ interface TitlePageProps{
     title: string;
 }
 
-export default function Sidebar(title: TitlePageProps){
+export default function HeaderNavigation(title: TitlePageProps){
     return(
         <Container>
             <TitleOfPage>
-                <Title></Title>
+                <Title>Título da página</Title>
             </TitleOfPage>
 
             <InformationsContainer>
                 <SearchArea>
-                    <SearchAreaButtons>
+                    <SearchAreaButton>
+                        <img 
+                        src={SearchIcon}
+                        alt="icone de busca"
+                        style={{
+                            width: 18,
+                            height: 18,
+                        }}
+                         />
+                    </SearchAreaButton>
 
-                    </SearchAreaButtons>
+                    <SearchAreaButton>
+                        <img 
+                        src={NotificatioIcon}
+                        alt="icone de notificação"
+                        style={{
+                            width: 18,
+                            height: 18,
+                        }}
+                         />
+                    
+                    </SearchAreaButton>
                 </SearchArea>
 
                 <ProfileArea>
                     <ProfileName>
-
+                        Marco Aurélio
                     </ProfileName>
 
-                    <ProfileImage>
-
-                    </ProfileImage>
+                    <img 
+                    src="https://github.com/im4nu.png" 
+                    alt="imagem de perfil" 
+                    style={{
+                        borderRadius: 40,
+                        height: 60,
+                        width: 60,
+                    }}
+                    />
                 </ProfileArea>
             </InformationsContainer>
         </Container>
