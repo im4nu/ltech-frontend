@@ -6,7 +6,7 @@ export default function Employess(){
     return(
     <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
         <Sidebar />
-
+        
         <div style={{display: "flex", flexDirection: "column"}}>
             <TudoQueTiverDentroDaPagina>
                 <HeaderNavigation title='Fuincionários'/>
