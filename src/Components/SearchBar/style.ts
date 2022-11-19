@@ -1,6 +1,6 @@
-import { Title } from '../HeaderNavigation/styles';
 import styled from "styled-components";
 
+<<<<<<< HEAD
 export const Input = styled.input`
 background: #F0F2F5;
 position:absolute;
@@ -30,3 +30,15 @@ margin-left:0.5rem;
 margin-top:0.4rem;
 cursor:pointer;
 `;
+=======
+export const SearchBar = styled.div`
+    display: flex;
+    background-color: #F0F2F5;
+    border-radius: 8px;
+    padding: 0px 10px;
+    width: 25vw;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+`;
+>>>>>>> f2fbef0964150e7b4193165b373187bab45f0e18

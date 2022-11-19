@@ -6,14 +6,16 @@ export const Container = styled.div`
     justify-content: space-between;
     height: 8vh;
     width: 85vw;
-    padding: 10px 5vw;
+    padding: 20px 30px;
     align-items:center;
     text-align:center;
 `;
 
 export const TitleOfPage = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items:center;
-    justify-content: flex-start;
     text-align:center;
 `;
 export const Title = styled.h2`
@@ -27,21 +29,21 @@ export const Title = styled.h2`
 export const InformationsContainer = styled.div`
     display: flex;
     flex-direction: row;
-    width: 15vw;
     justify-content: space-between;
     align-items:center;
     text-align: center;
 `;
 
-export const SearchArea = styled.div`
+export const NotificationArea = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
     text-align: center;
     gap: 10px;
+    margin-inline-end: 1vw;
 `;
-export const SearchAreaButton = styled.button`
+export const NotificationAreaButton = styled.button`
     border: none;
     border-radius: 2px;
     padding: 5px;

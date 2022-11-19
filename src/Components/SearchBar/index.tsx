@@ -1,9 +1,18 @@
-
-import {ButtonSearch, Divinput, Input} from './style'
-import ImgSearch from '../../Assets/Images/ImgSearch.svg'
+import {useState} from 'react'
+import {
+    SearchBar
+} from './style'
+import SearchIcon from '../../Assets/Icons/Search.svg'
+import { TextField } from '@material-ui/core';
 
 export default function SearchBarComponent(){
+    const [inputSearch, setInputSearch] = useState('')
+    const toggleSearch = () => {
+        setInputSearch((text) => text);
+    };
+    console.log(inputSearch)
     return(
+<<<<<<< HEAD
     
        
         <Divinput>
@@ -11,5 +20,20 @@ export default function SearchBarComponent(){
            <Input></Input>
         </Divinput>
     
+=======
+        <SearchBar>
+            <TextField
+            id="filled-basic"
+            label="Buscar"
+            variant="standard"
+            style={{
+                width: '25vw',
+                backgroundColor: "#F0F2F5",
+                padding: 5
+            }}
+            />
+            <img style={{width: 24, height: 24}} src={SearchIcon} alt="Ícone de busca" />
+        </SearchBar>
+>>>>>>> f2fbef0964150e7b4193165b373187bab45f0e18
     )
 }
