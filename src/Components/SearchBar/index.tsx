@@ -5,10 +5,10 @@ import ImgSearch from '../../Assets/Images/ImgSearch.svg'
 export default function SearchBarComponent(){
     return(
         <SearchBar>
-       <Titlefun><h3>Funcionarios</h3></Titlefun>
+       <Titlefun><h3>Funcionários</h3></Titlefun>
         <Divinput>
-            <ButtonSearch src={ImgSearch} alt="" width="20rem">
-            </ButtonSearch>
+            <ButtonSearch  src={ImgSearch} alt="" width="20rem" />
+           <Input></Input>
            
         </Divinput>
          

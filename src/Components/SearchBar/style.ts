@@ -11,9 +11,13 @@ background: #F0F2F5;
 outline:none;
 border-radius: 7px;
 height: 1.688rem;
-width: 15vw;
+width: 12vw;
 border: 0 none;
-margin-left:1rem;
+margin-left:2.5rem;
+display:flex;
+justify-content:center;
+margin-top:-1.8rem;
+color:#747874;
 
 
 `;
@@ -26,6 +30,7 @@ width: 19vw;
 height:1.875rem;
 box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 `;
+
 
 export const Titlefun = styled.h2`
 diplay:block;
