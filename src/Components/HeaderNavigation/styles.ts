@@ -19,11 +19,10 @@ export const TitleOfPage = styled.div`
     text-align:center;
 `;
 export const Title = styled.h2`
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.3px;
-    color: #404040;
 `;
 
 export const InformationsContainer = styled.div`
