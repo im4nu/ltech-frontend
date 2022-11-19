@@ -12,6 +12,15 @@ export default function SearchBarComponent(){
     };
 
     return(
+<<<<<<< HEAD
+    
+       
+        <Divinput>
+            <ButtonSearch  src={ImgSearch} alt="" width="20rem" />
+           <Input></Input>
+        </Divinput>
+    
+=======
         <SearchBar>
             <TextField
             id="filled-basic"
@@ -26,5 +35,6 @@ export default function SearchBarComponent(){
             />
             <img style={{width: 24, height: 24}} src={SearchIcon} alt="Ícone de busca" />
         </SearchBar>
+>>>>>>> f2fbef0964150e7b4193165b373187bab45f0e18
     )
 }
