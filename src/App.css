@@ -19,5 +19,6 @@ input[type=number] {
 }
 body{
   font-family: 'Inter', sans-serif;
-  background-color: #f2f2f2;
+  background: linear-gradient(75.19deg, #66C8FF -111.88%, rgba(173, 207, 255, 0) 97.14%);
+  color: #404040;
 }

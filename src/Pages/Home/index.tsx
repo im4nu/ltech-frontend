@@ -10,7 +10,7 @@ export default function Dashboard(){
             <div style={{display: "flex", flexDirection: "column"}}>
                 <HeaderNavigation title="Home Dashboard" />
                 <Container>
-                    <h1>Wellcome to home dashboard</h1>
+                    <h1 style={{fontWeight: 500}}>Wellcome to home dashboard</h1>
                 </Container>
             </div>
         </div>
