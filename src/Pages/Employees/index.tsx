@@ -10,7 +10,7 @@ export default function Employess(){
             <div style={{display: "flex", flexDirection: "column"}}>
                 <HeaderNavigation title="Funionários" />
                 <Container>
-                    <h1 style={{fontWeight: 500}}>Wellcome to employess's screen</h1>
+                    <h1 style={{fontWeight: 500}}>Wellcome to Employess's Screen</h1>
                 </Container>
             </div>
         </div>
