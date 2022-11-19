@@ -1,12 +1,12 @@
 import {TudoQueTiverDentroDaPagina} from './style'
 import SearchBarComponent from '../../Components/SearchBar'
-import {HeaderNavigation} from '../../Components/HeaderNavigartion'
+import HeaderNavigartion from '../../Components/HeaderNavigartion'
 
 export default function Employess(){
     return(
         <TudoQueTiverDentroDaPagina>
             
-         <HeaderNavigation>
+         <HeaderNavigartion>
     
             <SearchBarComponent />
             
