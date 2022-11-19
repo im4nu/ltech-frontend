@@ -1,5 +1,6 @@
 import HeaderNavigation from "../../Components/HeaderNavigation"
 import Sidebar from "../../Components/Sidebar"
+import { Container } from "./style"
 
 export default function Dashboard(){
     return(
@@ -7,10 +8,10 @@ export default function Dashboard(){
             <Sidebar />
             
             <div style={{display: "flex", flexDirection: "column"}}>
-                <HeaderNavigation title="Home" />
-                <div>
+                <HeaderNavigation title="Home Dashboard" />
+                <Container>
                     <h1>Wellcome to home dashboard</h1>
-                </div>
+                </Container>
             </div>
         </div>
     )
