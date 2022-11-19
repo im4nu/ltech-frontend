@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import CloseIcon from '../../Assets/Icons/Close.svg';
 import HomeIcon from '../../Assets/Icons/Home.svg';
 import EmployessIcon from '../../Assets/Icons/Employess.svg';
 import TelemarketingIcon from '../../Assets/Icons/Telemarketing.svg';
 import RegisterIcon from '../../Assets/Icons/Register.svg';
-import ChildrenIcon from '../../Assets/Icons/Children.svg';
 import UserIcon from '../../Assets/Icons/User.svg';
-import MenuIcon from '../../Assets/Icons/Menu.svg';
 
 import {
     ChildrenButton,
@@ -30,8 +29,6 @@ export default function Sidebar(){
     const toggleOpenChildrenButton = () => {
         setChildrenButton((current) => !current);
     };
-    const activeColor = '#62B5F1';
-    const inactiveColor = '#C0C0C0';
     return(
         <Container>
             <OpenCloseSidebar onClick={toggleOpenMenu}>
@@ -43,20 +40,26 @@ export default function Sidebar(){
             </ContainerLogo>
 
             <NavigationContainer>
+                <Link to={'/'}>
                 <NavigationButton onClick={toggleActive}>
                 <img src={HomeIcon} alt="Botão de Início" />
                 <p>Início</p>
                 </NavigationButton>
+                </Link>
 
+                <Link to={'/employess'}>
                 <NavigationButton onClick={toggleActive}>
                 <img src={EmployessIcon} alt="Botão de Funcionários" />
                 <p>Funcionários</p>
                 </NavigationButton>
+                </Link>
 
+                <Link to={'/telemarketing'}>
                 <NavigationButton onClick={toggleActive}>
                 <img src={TelemarketingIcon} alt="Botão de Atendimento" />
                 <p>Atendimento</p>
                 </NavigationButton>
+                </Link>
 
                 <NavigationButton onClick={toggleOpenChildrenButton}>
                 <img src={RegisterIcon} alt="Botão de Cadstro" />
@@ -64,15 +67,18 @@ export default function Sidebar(){
                 </NavigationButton>
                 {childrenButton === true &&(
                     <>
+                    <Link to={'/register/employess'}>
                     <ChildrenButton>
-                        <img src={ChildrenIcon} alt="Botão de Cadstrar funcionário" />
+                        <img src={EmployessIcon} alt="Botão de Cadstrar funcionário" />
                         <p>Funcionário</p>
                     </ChildrenButton>
-
+                    </Link>
+                    <Link to={'/register/client'}>
                     <ChildrenButton>
                         <img src={UserIcon} alt="Botão de Cadstrar Cliente" />
                         <p>Cliente</p>
                     </ChildrenButton>
+                    </Link>
                     </>
                 )}
                 {childrenButton === false &&(

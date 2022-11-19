@@ -5,7 +5,7 @@ export const Container = styled.div`
     height: 100vh;
     width: 15vw;
     background-color: #363740;
-    padding: 20px 0px;
+    padding: 15px 0px;
 `;
 export const OpenCloseSidebar = styled.div`
     display: flex;
@@ -20,7 +20,8 @@ export const ContainerLogo = styled.div`
     color: #f2f2f2;
     font-size: 22px;
     font-weight: 500;
-    padding: 3vh;
+    padding: 20px;
+    margin-bottom: 5vh;
 `; 
 export const NavigationContainer = styled.div`
     display: flex;
@@ -87,7 +88,7 @@ export const CloseContainer = styled.div`
     justify-content: flex-start;
     align-items: center;
 `;
-export const CloseOpenCloseSidebar = styled.div`
+export const CloseOpenSidebar = styled.div`
     display: flex;
     width: 100%;
     justify-content: flex-end;
