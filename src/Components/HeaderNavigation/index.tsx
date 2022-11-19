@@ -16,11 +16,11 @@ interface TitlePageProps{
     title: string;
 }
 
-export default function HeaderNavigation(title: TitlePageProps){
+export default function HeaderNavigation({title}: TitlePageProps){
     return(
         <Container>
             <TitleOfPage>
-                <Title>Título da página</Title>
+                <Title>{title}</Title>
             </TitleOfPage>
 
             <InformationsContainer>

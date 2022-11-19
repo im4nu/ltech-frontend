@@ -1,4 +1,4 @@
-import HeaderNavigation from "../../Components/HeaderNavigartion"
+import HeaderNavigation from "../../Components/HeaderNavigation"
 import Sidebar from "../../Components/Sidebar"
 
 export default function Dashboard(){
