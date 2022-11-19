@@ -1,12 +1,11 @@
 import styled from 'styled-components'
-import BackgroundImage from '../../Assets/Images/LoginBacgkround.png'
+import BackgroundImage from '../../Assets/Images/LoginBg.svg'
 
 export const Container = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100vh;
-    background-color: #f2f2f2;
 `;
 export const ImageBackground = styled.aside`
     width: 50vw;

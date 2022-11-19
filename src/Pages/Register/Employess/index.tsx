@@ -8,7 +8,7 @@ export default function EmployessRegister(){
             <Sidebar />
             
             <div style={{display: "flex", flexDirection: "column"}}>
-                <HeaderNavigation title="Home Dashboard" />
+                <HeaderNavigation title="Cadastro de Funcionário" />
                 <Container>
                     <h1 style={{fontWeight: 500}}>Wellcome to home Wellcome to Employess Register</h1>
                 </Container>

@@ -8,7 +8,7 @@ export default function Telemarketing(){
             <Sidebar />
             
             <div style={{display: "flex", flexDirection: "column"}}>
-                <HeaderNavigation title="Home Dashboard" />
+                <HeaderNavigation title="Atendimento" />
                 <Container>
                     <h1 style={{fontWeight: 500}}>Wellcome to home Telemarketing's Screen</h1>
                 </Container>

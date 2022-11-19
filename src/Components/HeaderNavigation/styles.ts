@@ -52,7 +52,7 @@ export const NotificationAreaButton = styled.button`
         :hover{
         cursor: pointer;
         transition: all ease 0.6s;
-        transform: translateY(-3px);
+        transform: translateY(-2px);
         }
 `;
 
@@ -64,7 +64,7 @@ export const ProfileArea = styled.div`
     gap: 15px;
 `;
 export const ProfileName = styled.h3`
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.3px;

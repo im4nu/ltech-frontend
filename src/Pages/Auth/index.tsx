@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import FormLogin from './Components/Form'
 import SocialButtons from './Components/SocialButtons'
 import {
@@ -20,7 +21,9 @@ export default function LoginAuth(){
                 <FormLogin />
                 <SocialButtons />
                 <AccessButtonsContainer>
+                    <Link to={'/'}>
                     <LoginButton>Entrar</LoginButton>
+                    </Link>
                     <RgisterLink>Ainda não possui registro?</RgisterLink>
                 </AccessButtonsContainer>
             </FormContainer>

@@ -8,7 +8,7 @@ export default function ClientRegister(){
             <Sidebar />
             
             <div style={{display: "flex", flexDirection: "column"}}>
-                <HeaderNavigation title="Home Dashboard" />
+                <HeaderNavigation title="Cadastro de Cliente" />
                 <Container>
                     <h1 style={{fontWeight: 500}}>Wellcome to Client Register</h1>
                 </Container>

@@ -1,61 +1,52 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import CloseIcon from '../../Assets/Icons/Close.svg';
+// Icons
 import HomeIcon from '../../Assets/Icons/Home.svg';
 import EmployessIcon from '../../Assets/Icons/Employess.svg';
 import TelemarketingIcon from '../../Assets/Icons/Telemarketing.svg';
 import RegisterIcon from '../../Assets/Icons/Register.svg';
 import UserIcon from '../../Assets/Icons/User.svg';
-
+import ExitIcon from '../../Assets/Icons/Exit.svg'
+// Style
 import {
     ChildrenButton,
     Container, 
     ContainerLogo,
+    Logoff,
     NavigationButton,
     NavigationContainer,
-    OpenCloseSidebar,
+    Header
     } from './styles'
 
 export default function Sidebar(){
-    const [menu, setMenu] = useState(false);
-    const [active, setActive] = useState(false);
     const [childrenButton, setChildrenButton] = useState(false);
-    const toggleOpenMenu = () => {
-        setMenu((current) => !current);
-    };
-    const toggleActive = () => {
-        setActive((current) => !current);
-    };
     const toggleOpenChildrenButton = () => {
         setChildrenButton((current) => !current);
     };
     return(
         <Container>
-            <OpenCloseSidebar onClick={toggleOpenMenu}>
-                <img src={CloseIcon} alt="Botão de fechar" />
-            </OpenCloseSidebar>
-
+            <Header>
             <ContainerLogo>
                 Ltech Soluções
             </ContainerLogo>
 
             <NavigationContainer>
-                <Link to={'/'}>
-                <NavigationButton onClick={toggleActive}>
+                <Link style={{textDecoration: 'none'}} to={'/'}>
+                <NavigationButton>
                 <img src={HomeIcon} alt="Botão de Início" />
                 <p>Início</p>
                 </NavigationButton>
                 </Link>
 
-                <Link to={'/employess'}>
-                <NavigationButton onClick={toggleActive}>
+                <Link style={{textDecoration: 'none'}} to={'/employess'}>
+                <NavigationButton>
                 <img src={EmployessIcon} alt="Botão de Funcionários" />
                 <p>Funcionários</p>
                 </NavigationButton>
                 </Link>
 
-                <Link to={'/telemarketing'}>
-                <NavigationButton onClick={toggleActive}>
+                <Link style={{textDecoration: 'none'}} to={'/telemarketing'}>
+                <NavigationButton>
                 <img src={TelemarketingIcon} alt="Botão de Atendimento" />
                 <p>Atendimento</p>
                 </NavigationButton>
@@ -67,13 +58,13 @@ export default function Sidebar(){
                 </NavigationButton>
                 {childrenButton === true &&(
                     <>
-                    <Link to={'/register/employess'}>
+                    <Link style={{textDecoration: 'none'}} to={'/register/employess'}>
                     <ChildrenButton>
                         <img src={EmployessIcon} alt="Botão de Cadstrar funcionário" />
                         <p>Funcionário</p>
                     </ChildrenButton>
                     </Link>
-                    <Link to={'/register/client'}>
+                    <Link style={{textDecoration: 'none'}} to={'/register/client'}>
                     <ChildrenButton>
                         <img src={UserIcon} alt="Botão de Cadstrar Cliente" />
                         <p>Cliente</p>
@@ -85,6 +76,12 @@ export default function Sidebar(){
                     <></> 
                )}
             </NavigationContainer>
+            </Header>
+            <Link to={'/login'}>
+            <Logoff>
+                <img src={ExitIcon} alt="Botão de sair" />
+            </Logoff>
+            </Link>
         </Container>
     )
 }

@@ -42,7 +42,7 @@ export default function HeaderNavigation({title}: TitlePageProps){
                 </NotificationArea>
                 <ProfileArea>
                     <ProfileName>
-                        Neymar
+                        Emmanuel Rodrigues
                     </ProfileName>
 
                     <img 
