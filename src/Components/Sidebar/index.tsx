@@ -65,7 +65,7 @@ export default function Sidebar(){
                 {childrenButton === true &&(
                     <>
                     <ChildrenButton>
-                        <img src={ChildrenIcon} alt="Botão de Cadstrar funcionário" />
+                        <img src={EmployessIcon} alt="Botão de Cadstrar funcionário" />
                         <p>Funcionário</p>
                     </ChildrenButton>
 

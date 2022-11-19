@@ -53,7 +53,6 @@ export const NotificationAreaButton = styled.button`
         cursor: pointer;
         transition: all ease 0.6s;
         transform: translateY(-3px);
-        background-color: #40404091;
         }
 `;
 

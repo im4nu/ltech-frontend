@@ -42,7 +42,7 @@ export default function HeaderNavigation({title}: TitlePageProps){
                 </NotificationArea>
                 <ProfileArea>
                     <ProfileName>
-                        Marco Aurélio
+                        Neymar
                     </ProfileName>
 
                     <img 
