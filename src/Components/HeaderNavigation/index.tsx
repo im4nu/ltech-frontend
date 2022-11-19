@@ -1,4 +1,3 @@
-import SearchIcon from '../../Assets/Icons/SearchGray.svg'
 import NotificatioIcon from '../../Assets/Icons/Notification.svg'
 import DivisorIcons from '../../Assets/Icons/Divisor.svg'
 import {
@@ -6,11 +5,12 @@ import {
     InformationsContainer, 
     ProfileArea, 
     ProfileName, 
-    SearchArea, 
-    SearchAreaButton, 
+    NotificationArea, 
+    NotificationAreaButton, 
     Title, 
     TitleOfPage} 
     from './styles'
+import SearchBarComponent from '../SearchBar';
 
 interface TitlePageProps{
     title: string;
@@ -23,20 +23,11 @@ export default function HeaderNavigation({title}: TitlePageProps){
                 <Title>{title}</Title>
             </TitleOfPage>
 
-            <InformationsContainer>
-                <SearchArea>
-                    <SearchAreaButton>
-                        <img 
-                        src={SearchIcon}
-                        alt="icone de busca"
-                        style={{
-                            width: 18,
-                            height: 18,
-                        }}
-                         />
-                    </SearchAreaButton>
+            <SearchBarComponent />
 
-                    <SearchAreaButton>
+            <InformationsContainer>
+                <NotificationArea>
+                    <NotificationAreaButton>
                         <img 
                         src={NotificatioIcon}
                         alt="icone de notificação"
@@ -45,11 +36,10 @@ export default function HeaderNavigation({title}: TitlePageProps){
                             height: 18,
                         }}
                          />
-                    </SearchAreaButton>
+                    </NotificationAreaButton>
 
                     <img src={DivisorIcons} alt="divisor" />
-                </SearchArea>
-
+                </NotificationArea>
                 <ProfileArea>
                     <ProfileName>
                         Marco Aurélio
