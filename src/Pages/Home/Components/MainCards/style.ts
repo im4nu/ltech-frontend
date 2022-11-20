@@ -33,7 +33,7 @@ export const MainCard = styled.div`
     }
 `;
 export const CardTitle = styled.p`
-    font-weight: 700;
+    font-weight: 500;
     font-size: 19px;
     line-height: 24px;
     text-align: center;

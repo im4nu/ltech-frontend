@@ -1,4 +1,3 @@
-import {Container} from './style'
 import HeaderNavigation from '../../Components/HeaderNavigation'
 import Sidebar from '../../Components/Sidebar'
 import {Table} from './style'
@@ -14,10 +13,6 @@ export default function Employess(){
             
             <div style={{display: "flex", flexDirection: "column"}}>
                 <HeaderNavigation title="Funionários" />
-                <Container>
-                    <h1 style={{fontWeight: 500}}>Wellcome to Employess's Screen</h1>
-                    
-                </Container>
             <DivTable>
                 <Table>
                

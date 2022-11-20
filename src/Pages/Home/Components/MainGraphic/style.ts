@@ -57,7 +57,7 @@ export const HeaderSub = styled.div`
     gap: 5px;
 `;
 export const HeaderSubText =styled.div`
-    font-weight: 600;
+    font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.1px;
@@ -89,7 +89,7 @@ export const InformationsCard = styled.div`
     border-top: solid 1px #DFE0EB;
 `;
 export const CardTitle =styled.p`
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
