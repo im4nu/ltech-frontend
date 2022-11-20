@@ -8,10 +8,12 @@ export const Table = styled.table`
       width: 60vw;
      
 `;
-export const Divheade = styled.div`
+export const Heade = styled.thead`
+
 background-color: #363740;
 height: 7vh;
-color: #F0F2F5;    
+color: #F0F2F5;
+
 `;
 export const Td = styled.td`
 padding-left:0.4rem;

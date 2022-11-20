@@ -2,10 +2,11 @@ import {Container} from './style'
 import HeaderNavigation from '../../Components/HeaderNavigation'
 import Sidebar from '../../Components/Sidebar'
 import {Table} from './style'
-import {Divheade} from './style'
+import {Heade} from './style'
 import {Td} from './style'
 import {Tbody} from './style'
-import  {DivTable}from './style'      
+import {DivTable} from './style'
+
 export default function Employess(){
     return(
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
@@ -17,16 +18,16 @@ export default function Employess(){
                     <h1 style={{fontWeight: 500}}>Wellcome to Employess's Screen</h1>
                     
                 </Container>
-            <DivTable>
+                <DivTable>
                 <Table>
-                <Divheade>
-                    
+                <Heade>
+                    <tr>
                       <th>Nome</th>
                       <th>Telefone</th>
                       <th>CPF</th>
                       <th>Cidade</th>
-
-                </Divheade>
+                  </tr>
+                </Heade>
                 <Tbody>
                     <tr>
                       <Td>Loran de Sousa Oliveira</Td>
