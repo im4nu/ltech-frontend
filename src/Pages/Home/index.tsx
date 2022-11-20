@@ -1,6 +1,7 @@
 import HeaderNavigation from "../../Components/HeaderNavigation"
 import Sidebar from "../../Components/Sidebar"
 import MainCards from "./Components/MainCards"
+import GraphicComponent from "./Components/MainGraphic"
 import { 
     Container,
  } from "./style"
@@ -14,6 +15,7 @@ export default function Dashboard(){
                 <HeaderNavigation title="Dashboard" />
                 <Container>
                     <MainCards />
+                    <GraphicComponent />
                 </Container>
             </div>
         </div>
