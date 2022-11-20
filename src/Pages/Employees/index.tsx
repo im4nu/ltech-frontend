@@ -11,6 +11,7 @@ export default function Employess(){
                 <HeaderNavigation title="Funionários" />
                 <Container>
                     <h1 style={{fontWeight: 500}}>Wellcome to Employess's Screen</h1>
+                    
                 </Container>
             </div>
         </div>
