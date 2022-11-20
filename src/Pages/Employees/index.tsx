@@ -18,8 +18,9 @@ export default function Employess(){
                     <h1 style={{fontWeight: 500}}>Wellcome to Employess's Screen</h1>
                     
                 </Container>
-                <DivTable>
+            <DivTable>
                 <Table>
+               
                 <Heade>
                     <tr>
                       <th>Nome</th>
@@ -28,6 +29,7 @@ export default function Employess(){
                       <th>Cidade</th>
                   </tr>
                 </Heade>
+             
                 <Tbody>
                     <tr>
                       <Td>Loran de Sousa Oliveira</Td>
@@ -42,6 +44,18 @@ export default function Employess(){
                       <Td>62406459312</Td>
                       <Td>Juazeiro do Norte</Td>
                        
+                    </tr>
+                    <tr>
+                      <Td>Loran de Sousa Oliveira</Td>
+                      <Td> (88)994699583</Td>
+                      <Td>62406459312</Td>
+                      <Td>Juazeiro do Norte</Td>
+                    </tr>
+                    <tr>
+                      <Td>Loran de Sousa Oliveira</Td>
+                      <Td> (88)994699583</Td>
+                      <Td>62406459312</Td>
+                      <Td>Juazeiro do Norte</Td>
                     </tr>
                 </Tbody>
                 <tfoot>

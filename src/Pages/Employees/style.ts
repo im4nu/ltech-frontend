@@ -9,7 +9,7 @@ export const Table = styled.table`
      
 `;
 export const Heade = styled.thead`
-
+font-size:12px;
 background-color: #363740;
 height: 7vh;
 color: #F0F2F5;
@@ -19,7 +19,8 @@ export const Td = styled.td`
 padding-left:0.4rem;
 background-color:#FFFFFF;
 height: 7vh;
-font-size:14px;
+font-size:13px;
+
       
 `;
 export const Tbody = styled.tbody`
@@ -30,5 +31,8 @@ export const Tbody = styled.tbody`
 export const DivTable = styled.div`
 display:flex;
 justify-content:center;
+
+
+
 
 `;
