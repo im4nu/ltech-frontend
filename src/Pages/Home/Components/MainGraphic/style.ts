@@ -33,6 +33,7 @@ export const HeaderTitleText = styled.h2`
     font-size: 19px;
     line-height: 24px;
     letter-spacing: 0.4px;
+    width: 30vw;
     color: #252733;
 `;
 export const HeaderParagraph = styled.p`
@@ -66,7 +67,7 @@ export const HeaderSubText =styled.div`
 
 export const MainGraphic = styled.image`
     width: 35vw;
-    height: 25vh;
+    height: 27vh;
     background-image: url(${GraphicImage});
     background-repeat: no-repeat;
     background-size: cover;

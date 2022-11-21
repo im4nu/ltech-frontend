@@ -9,6 +9,9 @@ export const Container = styled.div`
     padding: 20px 30px;
     align-items:center;
     text-align:center;
+        @media (max-width: 1366px) {
+            margin-top: 1.5vh;
+        }
 `;
 
 export const TitleOfPage = styled.div`
