@@ -10,8 +10,8 @@ export const ButtonContainer = styled.div`
     color: #f2f2f2;
     font-size: 16px;
 
-    width: 220px;
-    height: 60px;
+    width: 210px;
+    height: 55px;
     border-radius: 6px;
     margin-top: 5vh;
     transition: all ease 0.5s;
@@ -19,5 +19,10 @@ export const ButtonContainer = styled.div`
             transition: all ease 0.5s;
             transform: scale(1.02);
             cursor: pointer;
+            }
+            @media (max-width: 1366px) {
+                width: 200px;
+                height: 50px;
+                font-size: 14px;
             }
     `;
