@@ -1,12 +1,16 @@
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import {Container} from './style'
 // Pages
-import LoginAuth from '../Pages/Auth'
+import LoginAuth from '../Pages/Auth';
 import Dashboard from "../Pages/Home";
+import Customers from '../Pages/Customers';
 import Employess from '../Pages/Employees'
+import Attendances from '../Pages/Attendances'
 import Telemarketing from '../Pages/Telemarketing';
 import EmployessRegister from '../Pages/Register/Employess';
 import ClientRegister from '../Pages/Register/Client';
+
+
 
 export default function Router() {
   return (
@@ -19,6 +23,8 @@ export default function Router() {
           <Route path='/telemarketing' element={<Telemarketing />} />
           <Route path='/register/employess' element={<EmployessRegister />} />
           <Route path='/register/client' element={<ClientRegister />} />
+          <Route path='/customers' element={<Customers />} />
+          <Route path='/attendaces' element={<Attendances />} />
 
 
           {/* Access */}
