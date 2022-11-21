@@ -7,7 +7,7 @@ import {Td} from './style'
 import {Tbody} from './style'
 import {DivTable} from './style'
 
-export default function Attendaces(){
+export default function Attendances(){
     return(
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
             <Sidebar />
@@ -15,7 +15,7 @@ export default function Attendaces(){
             <div style={{display: "flex", flexDirection: "column"}}>
                 <HeaderNavigation title="Atendimentos" />
                 <Container>
-                    <h1 style={{fontWeight: 500}}>Wellcome to Attendaces's Screen</h1>
+                    <h1 style={{fontWeight: 500}}>Wellcome to Attendances's Screen</h1>
                     
                 </Container>
             <DivTable>

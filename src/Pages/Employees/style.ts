@@ -1,27 +1,27 @@
-import styled from "styled-components";
+import style from "styled-components";
 
-export const Container = styled.div`
+export const Container = style.div`
     padding: 10px 5vw;
 `;
-export const Table = styled.table`
+export const Table = style.table`
     margin-top:4rem;
     width: 60vw;
 `;
-export const Heade = styled.thead`
+export const Heade = style.thead`
     font-size:12px;
     background-color: #363740;
     height: 7vh;
     color: #F0F2F5;
 `;
-export const Td = styled.td`
+export const Td = style.td`
     padding-left:0.4rem;
     background-color:#FFFFFF;
     height: 7vh;
     font-size:13px; 
 `;
-export const Tbody = styled.tbody`
+export const Tbody = style.tbody`
 `;
-export const DivTable = styled.div`
+export const DivTable = style.div`
     display:flex;
     justify-content:center;
 `;
