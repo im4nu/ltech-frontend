@@ -13,8 +13,8 @@ export const MainCard = styled.div`
     align-items: center;
     text-align:center;
     
-    height: 18vh;
-    width: 18vw;
+    height: 13vh;
+    width: 13vw;
 
     background-color: #ffff;
     border: solid 1px #DFE0EB;
@@ -42,7 +42,7 @@ export const CardTitle = styled.p`
 `;
 export const CardInformation = styled.h3`
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 50px;
     text-align: center;
     letter-spacing: 1px;

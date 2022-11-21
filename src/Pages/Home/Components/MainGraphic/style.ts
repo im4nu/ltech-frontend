@@ -21,7 +21,7 @@ export const HeaderGraphic = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50vw;
+    width: 30vw;
 `;
 export const HeaderTitle = styled.div`
     display: flex;
@@ -65,17 +65,18 @@ export const HeaderSubText =styled.div`
 `;
 
 export const MainGraphic = styled.image`
-    width: 50vw;
-    height: 40vh;
+    width: 35vw;
+    height: 25vh;
     background-image: url(${GraphicImage});
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 30px 2.5vw;
 `;
 
 export const InformationsContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 15vw;
     justify-content: space-evenly;
 `;
 export const InformationsCard = styled.div`
@@ -87,6 +88,7 @@ export const InformationsCard = styled.div`
     height: 100%;
 
     border-top: solid 1px #DFE0EB;
+    border-left: solid 1px #DFE0EB;
 `;
 export const CardTitle =styled.p`
     font-weight: 500;

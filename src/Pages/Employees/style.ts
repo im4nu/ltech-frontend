@@ -18,6 +18,7 @@ export const Td = style.td`
     background-color:#FFFFFF;
     height: 7vh;
     font-size:13px; 
+    max-width: 3vw;
 `;
 export const Tbody = style.tbody`
 `;

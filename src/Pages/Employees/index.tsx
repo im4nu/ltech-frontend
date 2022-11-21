@@ -27,7 +27,7 @@ export default function Employess(){
                 </Heade>
              
                 <Tbody>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
@@ -35,7 +35,7 @@ export default function Employess(){
                       <Td>Juazeiro do Norte</Td>
                       
                     </tr>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
@@ -43,14 +43,14 @@ export default function Employess(){
                       <Td>Juazeiro do Norte</Td>
                        
                     </tr>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
                       <Td>030</Td>
                       <Td>Juazeiro do Norte</Td>
                     </tr>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
@@ -58,7 +58,7 @@ export default function Employess(){
                       <Td>Juazeiro do Norte</Td>
                     </tr>
                 </Tbody>
-                <tfoot>
+                <tfoot style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>

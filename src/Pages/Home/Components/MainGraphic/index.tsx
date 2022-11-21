@@ -42,7 +42,11 @@ export default function GraphicComponent(){
         </Graphic>
 
         <InformationsContainer>
-                <InformationsCard style={{border: 'none'}}>
+                <InformationsCard 
+                style={{
+                    borderLeft: 'solid 1px #DFE0EB',
+                     borderTop: 'none'
+                     }}>
                     <CardTitle>Atendimentos</CardTitle>
                     <CardNumber>5</CardNumber>
                 </InformationsCard>

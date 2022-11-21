@@ -7,17 +7,13 @@ import {Td} from './style'
 import {Tbody} from './style'
 import {DivTable} from './style'
 
-export default function Customers(){
+export default function Clients(){
     return(
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
             <Sidebar />
             
             <div style={{display: "flex", flexDirection: "column"}}>
                 <HeaderNavigation title="Clientes" />
-                <Container>
-                    <h1 style={{fontWeight: 500}}>Wellcome to Customers's Screen</h1>
-                    
-                </Container>
             <DivTable>
                 <Table>
                
@@ -31,34 +27,34 @@ export default function Customers(){
                 </Heade>
              
                 <Tbody>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
                       <Td>Juazeiro do Norte</Td>
                       
                     </tr>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
                       <Td>Juazeiro do Norte</Td>
                        
                     </tr>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
                       <Td>Juazeiro do Norte</Td>
                     </tr>
-                    <tr>
+                    <tr style={{textAlign: 'center'}}>
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>
                       <Td>Juazeiro do Norte</Td>
                     </tr>
                 </Tbody>
-                <tfoot>
+                <tfoot style={{textAlign: 'center'}}> 
                       <Td>Loran de Sousa Oliveira</Td>
                       <Td> (88)994699583</Td>
                       <Td>62406459312</Td>

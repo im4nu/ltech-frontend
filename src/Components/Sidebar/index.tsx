@@ -38,6 +38,13 @@ export default function Sidebar(){
                 </NavigationButton>
                 </Link>
 
+                <Link style={{textDecoration: 'none'}} to={'/clients'}>
+                <NavigationButton>
+                <img src={UserIcon} alt="Botão de Clientes" />
+                <p>Clientes</p>
+                </NavigationButton>
+                </Link>
+
                 <Link style={{textDecoration: 'none'}} to={'/employess'}>
                 <NavigationButton>
                 <img src={EmployessIcon} alt="Botão de Funcionários" />

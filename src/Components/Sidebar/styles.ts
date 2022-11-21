@@ -6,6 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     height: 100vh;
     width: 15vw;
+    min-width: 200px;
     background-color: #363740;
     padding: 15px 0px;
     justify-content: space-between;
@@ -80,6 +81,9 @@ export const ChildrenButton = styled.button`
             transition: all ease 0.5s;
             transform: translateX(3px);
             cursor: pointer;
+        }
+        @media (max-width: 1366px) {
+            width: 95%;
         }
 `;
 export const Logoff = styled.div`
