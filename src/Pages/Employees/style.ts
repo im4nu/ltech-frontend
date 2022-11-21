@@ -4,9 +4,8 @@ export const Container = styled.div`
     padding: 10px 5vw;
 `;
 export const Table = styled.table`
-      margin-top:7rem;
+      margin-top:5rem;
       width: 60vw;
-     
 `;
 export const Heade = styled.thead`
 font-size:12px;
