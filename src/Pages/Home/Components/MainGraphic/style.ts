@@ -106,4 +106,7 @@ export const CardNumber = styled.h3`
     text-align: center;
     letter-spacing: 0.3px;
     color: #252733;
+        @media (max-width: 1366px) {
+            font-size: 22px;
+        }
 `;

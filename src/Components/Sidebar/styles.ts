@@ -33,6 +33,10 @@ export const NavigationContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 40px;
+        @media (max-width: 1366px) {
+            width: 95%;
+            gap: 35px;
+        }
 `;
 export const NavigationButton = styled.button`
     display: flex;
@@ -84,6 +88,8 @@ export const ChildrenButton = styled.button`
         }
         @media (max-width: 1366px) {
             width: 95%;
+            gap: 20px;
+            padding: 5px 25px;
         }
 `;
 export const Logoff = styled.div`

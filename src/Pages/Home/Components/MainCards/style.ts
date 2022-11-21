@@ -46,4 +46,7 @@ export const CardInformation = styled.h3`
     line-height: 50px;
     text-align: center;
     letter-spacing: 1px;
+        @media (max-width: 1366px) {
+            font-size: 26px;
+        }
 `;
