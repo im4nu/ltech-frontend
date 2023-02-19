@@ -28,14 +28,7 @@ export default function HeaderNavigation({title}: TitlePageProps){
             <InformationsContainer>
                 <NotificationArea>
                     <NotificationAreaButton>
-                        <img 
-                        src={NotificatioIcon}
-                        alt="icone de notificação"
-                        style={{
-                            width: 18,
-                            height: 18,
-                        }}
-                         />
+                       
                     </NotificationAreaButton>
 
                     <img src={DivisorIcons} alt="divisor" />
